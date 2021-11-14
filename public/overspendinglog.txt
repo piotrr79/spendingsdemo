@@ -1,0 +1,4 @@
+User Id: 3da5f545-89f3-403f-9b8d-fc752d369208 Thershold: 0 Total spendings: 500
+User Id: 3da5f545-89f3-403f-9b8d-fc752d369208 Thershold: 100 Total spendings: 8500
+User Id: 3da5f545-89f3-403f-9b8d-fc752d369208 Thershold: 100 Total spendings: 9000
+User Id: 3da5f545-89f3-403f-9b8d-fc752d369208 Thershold: 100 Total spendings: 9110
