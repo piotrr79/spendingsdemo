@@ -66,7 +66,7 @@ class ApiController extends AbstractController
     public function debit(Request $request): Response
     {
         $user_id = $this->requestChecker->checkParam($request, 'user', 'uuid');
-        $ammount = $this->requestChecker->checkParam($request, 'ammount', 'decimal');
+        $ammount = $this->requestChecker->checkParam($request, 'ammount', 'number');
 
         /* @internal - set default response message, it will be overwritten later on */
         $message = 'Debit saved';
@@ -106,7 +106,7 @@ class ApiController extends AbstractController
     public function credit(Request $request): Response
     {
         $user_id = $this->requestChecker->checkParam($request, 'user', 'uuid');
-        $refund = $this->requestChecker->checkParam($request, 'refund', 'decimal');
+        $refund = $this->requestChecker->checkParam($request, 'refund', 'number');
 
         try {
             $userEntity = $this->getUserEntity($user_id);
